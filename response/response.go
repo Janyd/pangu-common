@@ -53,8 +53,15 @@ func Error(c *gin.Context, code int) {
 	c.Abort()
 }
 
+// Unauthorized 未授权
 func Unauthorized(c *gin.Context, code int) {
 	ReturnJson(c, http.StatusOK, code, common.ErrorCode[code], nil)
+	c.Abort()
+}
+
+// Redirect 重定向
+func Redirect(c *gin.Context, url string) {
+	c.Redirect(http.StatusFound, url)
 	c.Abort()
 }
 
