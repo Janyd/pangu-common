@@ -1,7 +1,7 @@
 package response
 
 import (
-	common "gitee.com/ChuckChan/pangu-common"
+	common "github.com/Janyd/pangu-common"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 	"net/http"

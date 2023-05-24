@@ -1,8 +1,8 @@
 package lists
 
 import (
-	"gitee.com/ChuckChan/pangu-common/container"
-	"gitee.com/ChuckChan/pangu-common/container/comparator"
+	"github.com/Janyd/pangu-common/container"
+	"github.com/Janyd/pangu-common/container/comparator"
 )
 
 type List[T container.Object[T]] interface {

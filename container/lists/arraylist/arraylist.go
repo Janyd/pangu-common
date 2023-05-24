@@ -2,8 +2,8 @@ package arraylist
 
 import (
 	"fmt"
-	"gitee.com/ChuckChan/pangu-common/container/comparator"
-	"gitee.com/ChuckChan/pangu-common/container/util"
+	"github.com/Janyd/pangu-common/container/comparator"
+	"github.com/Janyd/pangu-common/container/util"
 	"reflect"
 	"strings"
 )

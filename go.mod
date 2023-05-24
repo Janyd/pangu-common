@@ -1,4 +1,4 @@
-module gitee.com/ChuckChan/pangu-common
+module github.com/Janyd/pangu-common
 
 go 1.19
 

@@ -1,7 +1,7 @@
 package arraylist
 
 import (
-	"gitee.com/ChuckChan/pangu-common/container/comparator"
+	"github.com/Janyd/pangu-common/container/comparator"
 	"strings"
 	"testing"
 )

@@ -1,6 +1,6 @@
 package sets
 
-import "gitee.com/ChuckChan/pangu-common/container"
+import "github.com/Janyd/pangu-common/container"
 
 type Set[T container.Object[T]] interface {
 	Add(elements ...T)
